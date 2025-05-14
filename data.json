@@ -1,172 +1,152 @@
-{
-  "brands": [
-    {
-      "id": 1,
-      "name": "Apple",
-      "products": [
-        {
-          "id": "AP001",
-          "productName": "AirPods Pro",
-          "graphicName": "airpods_pro.jpg",
-          "costPrice": 120.00,
-          "msrp": 249.99,
-          "qtyOnHand": 100,
-          "qtyOnBackOrder": 20,
-          "description": "Noise-canceling wireless earbuds with high-fidelity audio and a customizable fit, designed for seamless Apple integration."
-        },
-        {
-          "id": "AP002",
-          "productName": "Apple Watch Series 9",
-          "graphicName": "apple_watch.jpg",
-          "costPrice": 220.00,
-          "msrp": 399.99,
-          "qtyOnHand": 75,
-          "qtyOnBackOrder": 15,
-          "description": "A powerful smartwatch with health tracking, fitness metrics, and deep iOS integration for a seamless experience."
-        },
-        {
-          "id": "AP003",
-          "productName": "Magic Keyboard",
-          "graphicName": "magic_keyboard.jpg",
-          "costPrice": 80.00,
-          "msrp": 129.00,
-          "qtyOnHand": 120,
-          "qtyOnBackOrder": 10,
-          "description": "A wireless and rechargeable keyboard with a sleek design and excellent typing experience, perfect for Apple devices."
-        },
-        {
-          "id": "AP004",
-          "productName": "Apple TV 4K",
-          "graphicName": "apple_tv_4k.jpg",
-          "costPrice": 90.00,
-          "msrp": 179.00,
-          "qtyOnHand": 95,
-          "qtyOnBackOrder": 5,
-          "description": "High-definition streaming device with Siri remote, delivering stunning 4K HDR content and smart home integration."
-        },
-        {
-          "id": "AP005",
-          "productName": "HomePod Mini",
-          "graphicName": "homepod_mini.jpg",
-          "costPrice": 75.00,
-          "msrp": 99.00,
-          "qtyOnHand": 130,
-          "qtyOnBackOrder": 7,
-          "description": "Compact smart speaker with room-filling sound and voice control, designed to work flawlessly within the Apple ecosystem."
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Google",
-      "products": [
-        {
-          "id": "GO001",
-          "productName": "Nest Hub 2nd Gen",
-          "graphicName": "nest_hub.jpg",
-          "costPrice": 60.00,
-          "msrp": 99.99,
-          "qtyOnHand": 110,
-          "qtyOnBackOrder": 12,
-          "description": "Smart display with Google Assistant, designed to manage smart home devices, stream media, and track sleep."
-        },
-        {
-          "id": "GO002",
-          "productName": "Chromecast with Google TV",
-          "graphicName": "chromecast.jpg",
-          "costPrice": 30.00,
-          "msrp": 49.99,
-          "qtyOnHand": 140,
-          "qtyOnBackOrder": 8,
-          "description": "HD streaming device with remote control and personalized recommendations, powered by Google TV OS."
-        },
-        {
-          "id": "GO003",
-          "productName": "Nest Thermostat",
-          "graphicName": "nest_thermostat.jpg",
-          "costPrice": 100.00,
-          "msrp": 129.99,
-          "qtyOnHand": 60,
-          "qtyOnBackOrder": 6,
-          "description": "Smart thermostat that learns your schedule and helps reduce energy use while keeping your home comfortable."
-        },
-        {
-          "id": "GO004",
-          "productName": "Pixel Buds Pro",
-          "graphicName": "pixel_buds_pro.jpg",
-          "costPrice": 90.00,
-          "msrp": 199.00,
-          "qtyOnHand": 85,
-          "qtyOnBackOrder": 10,
-          "description": "Premium wireless earbuds with active noise cancellation, high-quality audio, and hands-free Google Assistant."
-        },
-        {
-          "id": "GO005",
-          "productName": "Nest Cam (Indoor/Outdoor)",
-          "graphicName": "nest_cam.jpg",
-          "costPrice": 120.00,
-          "msrp": 179.99,
-          "qtyOnHand": 70,
-          "qtyOnBackOrder": 9,
-          "description": "Versatile security camera for indoor or outdoor use with night vision, motion detection, and mobile alerts."
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Samsung",
-      "products": [
-        {
-          "id": "SA001",
-          "productName": "Galaxy Watch 6",
-          "graphicName": "galaxy_watch.jpg",
-          "costPrice": 180.00,
-          "msrp": 299.99,
-          "qtyOnHand": 100,
-          "qtyOnBackOrder": 20,
-          "description": "Stylish smartwatch with advanced fitness tracking, sleep monitoring, and Samsung Health integration."
-        },
-        {
-          "id": "SA002",
-          "productName": "Galaxy Buds 2 Pro",
-          "graphicName": "galaxy_buds.jpg",
-          "costPrice": 110.00,
-          "msrp": 229.99,
-          "qtyOnHand": 90,
-          "qtyOnBackOrder": 5,
-          "description": "Wireless earbuds with studio-quality sound and intelligent active noise canceling for immersive listening."
-        },
-        {
-          "id": "SA003",
-          "productName": "Samsung Smart Monitor M8",
-          "graphicName": "smart_monitor.jpg",
-          "costPrice": 320.00,
-          "msrp": 699.99,
-          "qtyOnHand": 45,
-          "qtyOnBackOrder": 10,
-          "description": "A smart 4K UHD monitor with built-in apps, video calling, and remote PC access – perfect for work and play."
-        },
-        {
-          "id": "SA004",
-          "productName": "T7 Portable SSD 1TB",
-          "graphicName": "t7_ssd.jpg",
-          "costPrice": 85.00,
-          "msrp": 139.99,
-          "qtyOnHand": 100,
-          "qtyOnBackOrder": 0,
-          "description": "Fast and compact portable SSD with USB 3.2 Gen 2 interface for quick file transfers and secure storage."
-        },
-        {
-          "id": "SA005",
-          "productName": "Samsung Jet 75 Cordless Vacuum",
-          "graphicName": "jet_vacuum.jpg",
-          "costPrice": 250.00,
-          "msrp": 499.99,
-          "qtyOnHand": 55,
-          "qtyOnBackOrder": 3,
-          "description": "Powerful and lightweight cordless stick vacuum with advanced filtration and long battery life for deep cleaning."
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "productName": "AirPods Pro",
+    "graphicName": "airpods_pro.jpg",
+    "costPrice": "120.00",
+    "msrp": "249.99",
+    "qtyOnHand": "100",
+    "qtyOnBackOrder": "20",
+    "description": "Noise-canceling wireless earbuds with customizable fit, transparency mode, and adaptive EQ.",
+    "brands": "Apple"
+  },
+  {
+    "productName": "Apple Watch Series 9",
+    "graphicName": "apple_watch.jpg",
+    "costPrice": "220.00",
+    "msrp": "399.99",
+    "qtyOnHand": "75",
+    "qtyOnBackOrder": "15",
+    "description": "Smartwatch with health tracking, new S9 chip, gesture control, and always-on retina display.",
+    "brands": "Apple"
+  },
+  {
+    "productName": "Magic Keyboard",
+    "graphicName": "magic_keyboard.jpg",
+    "costPrice": "80.00",
+    "msrp": "129.00",
+    "qtyOnHand": "120",
+    "qtyOnBackOrder": "10",
+    "description": "Wireless keyboard with touch ID for Mac, smooth scissor mechanism, and low-profile design.",
+    "brands": "Apple"
+  },
+  {
+    "productName": "Apple TV 4K",
+    "graphicName": "apple_tv_4k.jpg",
+    "costPrice": "90.00",
+    "msrp": "179.00",
+    "qtyOnHand": "95",
+    "qtyOnBackOrder": "5",
+    "description": "Streaming box with 4K HDR, Dolby Atmos support, and Siri voice remote for easy navigation.",
+    "brands": "Apple"
+  },
+  {
+    "productName": "HomePod Mini",
+    "graphicName": "homepod_mini.jpg",
+    "costPrice": "75.00",
+    "msrp": "99.00",
+    "qtyOnHand": "130",
+    "qtyOnBackOrder": "7",
+    "description": "Compact smart speaker with 360° sound, Siri integration, and seamless smart home support.",
+    "brands": "Apple"
+  },
+  {
+    "productName": "Nest Hub 2nd Gen",
+    "graphicName": "nest_hub.jpg",
+    "costPrice": "60.00",
+    "msrp": "99.99",
+    "qtyOnHand": "110",
+    "qtyOnBackOrder": "12",
+    "description": "Smart display with Google Assistant, sleep tracking, and control for connected smart devices.",
+    "brands": "Google"
+  },
+  {
+    "productName": "Chromecast with Google TV",
+    "graphicName": "chromecast.jpg",
+    "costPrice": "30.00",
+    "msrp": "49.99",
+    "qtyOnHand": "140",
+    "qtyOnBackOrder": "8",
+    "description": "Streaming stick with personalized Google TV interface and voice remote for easy searching.",
+    "brands": "Google"
+  },
+  {
+    "productName": "Nest Thermostat",
+    "graphicName": "nest_thermostat.jpg",
+    "costPrice": "100.00",
+    "msrp": "129.99",
+    "qtyOnHand": "60",
+    "qtyOnBackOrder": "6",
+    "description": "Energy-efficient smart thermostat that learns your schedule and works with voice assistants.",
+    "brands": "Google"
+  },
+  {
+    "productName": "Pixel Buds Pro",
+    "graphicName": "pixel_buds_pro.jpg",
+    "costPrice": "90.00",
+    "msrp": "199.00",
+    "qtyOnHand": "85",
+    "qtyOnBackOrder": "10",
+    "description": "Premium wireless earbuds with ANC, wireless charging, and rich immersive audio quality.",
+    "brands": "Google"
+  },
+  {
+    "productName": "Nest Cam (Indoor/Outdoor)",
+    "graphicName": "nest_cam.jpg",
+    "costPrice": "120.00",
+    "msrp": "179.99",
+    "qtyOnHand": "70",
+    "qtyOnBackOrder": "9",
+    "description": "Versatile security camera with night vision, smart alerts, and two-way talk functionality.",
+    "brands": "Google"
+  },
+  {
+    "productName": "Galaxy Watch 6",
+    "graphicName": "galaxy_watch.jpg",
+    "costPrice": "180.00",
+    "msrp": "299.99",
+    "qtyOnHand": "100",
+    "qtyOnBackOrder": "20",
+    "description": "Advanced health tracking smartwatch with sleek design, fitness apps, and AMOLED display.",
+    "brands": "Samsung"
+  },
+  {
+    "productName": "Galaxy Buds 2 Pro",
+    "graphicName": "galaxy_buds.jpg",
+    "costPrice": "110.00",
+    "msrp": "229.99",
+    "qtyOnHand": "90",
+    "qtyOnBackOrder": "5",
+    "description": "Wireless earbuds with high-fidelity sound, intelligent ANC, and 360 audio experience.",
+    "brands": "Samsung"
+  },
+  {
+    "productName": "Samsung Smart Monitor M8",
+    "graphicName": "smart_monitor.jpg",
+    "costPrice": "320.00",
+    "msrp": "699.99",
+    "qtyOnHand": "45",
+    "qtyOnBackOrder": "10",
+    "description": "All-in-one 4K smart monitor with streaming apps, video calling, and remote PC access.",
+    "brands": "Samsung"
+  },
+  {
+    "productName": "T7 Portable SSD 1TB",
+    "graphicName": "t7_ssd.jpg",
+    "costPrice": "85.00",
+    "msrp": "139.99",
+    "qtyOnHand": "100",
+    "qtyOnBackOrder": "0",
+    "description": "Ultra-fast portable SSD with secure encryption and USB 3.2 Gen 2 interface for all devices.",
+    "brands": "Samsung"
+  },
+  {
+    "productName": "Samsung Jet 75 Cordless Vacuum",
+    "graphicName": "jet_vacuum.jpg",
+    "costPrice": "250.00",
+    "msrp": "499.99",
+    "qtyOnHand": "55",
+    "qtyOnBackOrder": "3",
+    "description": "Lightweight cordless stick vacuum with powerful suction and long battery life for deep cleaning.",
+    "brands": "Samsung"
+  }
+]
