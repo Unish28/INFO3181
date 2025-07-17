@@ -1,6 +1,5 @@
 [
   {
-    "id": "App1",
     "productName": "AirPods Pro",
     "graphicName": "airpods_pro.jpg",
     "costPrice": "120.00",
@@ -11,7 +10,6 @@
     "brands": "Apple"
   },
   {
-    "id": "App2",
     "productName": "Apple Watch Series 9",
     "graphicName": "apple_watch.jpg",
     "costPrice": "220.00",
@@ -22,7 +20,6 @@
     "brands": "Apple"
   },
   {
-    "id": "App3",
     "productName": "Magic Keyboard",
     "graphicName": "magic_keyboard.jpg",
     "costPrice": "80.00",
@@ -33,7 +30,6 @@
     "brands": "Apple"
   },
   {
-    "id": "App4",
     "productName": "Apple TV 4K",
     "graphicName": "apple_tv_4k.jpg",
     "costPrice": "90.00",
@@ -44,7 +40,6 @@
     "brands": "Apple"
   },
   {
-    "id": "App5",
     "productName": "HomePod Mini",
     "graphicName": "homepod_mini.jpg",
     "costPrice": "75.00",
@@ -55,7 +50,6 @@
     "brands": "Apple"
   },
   {
-    "id": "Goog1",
     "productName": "Nest Hub 2nd Gen",
     "graphicName": "nest_hub.jpg",
     "costPrice": "60.00",
@@ -66,7 +60,6 @@
     "brands": "Google"
   },
   {
-    "id": "Goog2",
     "productName": "Chromecast with Google TV",
     "graphicName": "chromecast.jpg",
     "costPrice": "30.00",
@@ -77,7 +70,6 @@
     "brands": "Google"
   },
   {
-    "id": "Goog3",
     "productName": "Nest Thermostat",
     "graphicName": "nest_thermostat.jpg",
     "costPrice": "100.00",
@@ -88,7 +80,6 @@
     "brands": "Google"
   },
   {
-    "id": "Goog4",
     "productName": "Pixel Buds Pro",
     "graphicName": "pixel_buds_pro.jpg",
     "costPrice": "90.00",
@@ -99,7 +90,6 @@
     "brands": "Google"
   },
   {
-    "id": "Goog5",
     "productName": "Nest Cam (Indoor/Outdoor)",
     "graphicName": "nest_cam.jpg",
     "costPrice": "120.00",
@@ -110,7 +100,6 @@
     "brands": "Google"
   },
   {
-    "id": "SAM1",
     "productName": "Galaxy Watch 6",
     "graphicName": "galaxy_watch.jpg",
     "costPrice": "180.00",
@@ -121,7 +110,6 @@
     "brands": "Samsung"
   },
   {
-    "id": "SAM2",
     "productName": "Galaxy Buds 2 Pro",
     "graphicName": "galaxy_buds.jpg",
     "costPrice": "110.00",
@@ -132,7 +120,6 @@
     "brands": "Samsung"
   },
   {
-    "id": "SAM3",
     "productName": "Samsung Smart Monitor M8",
     "graphicName": "smart_monitor.jpg",
     "costPrice": "320.00",
@@ -143,7 +130,6 @@
     "brands": "Samsung"
   },
   {
-    "id": "SAM4",
     "productName": "T7 Portable SSD 1TB",
     "graphicName": "t7_ssd.jpg",
     "costPrice": "85.00",
@@ -154,7 +140,6 @@
     "brands": "Samsung"
   },
   {
-    "id": "SAM5",
     "productName": "Samsung Jet 75 Cordless Vacuum",
     "graphicName": "jet_vacuum.jpg",
     "costPrice": "250.00",
